@@ -33,6 +33,7 @@
 .section-heading{
     max-width: 827px;
     text-align: center;
+    margin: 0 auto;
     
 }
 .section-heading h2{
@@ -142,10 +143,41 @@ line-height: 30px;
  
 }
 
-.about-info .info-card p{
+.about-info .info-card p {
 font-size: 20px;
 color: #757575;
 font-style: 400;
 line-height: 30px;
  
+}
+#skills{
+    padding-top: 130 px;
+
+}
+#skills .skills-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    border: 2px solid crimson; 
+}
+#skills .skills-container .skills-heading h2{
+font-size: 35px;
+    font-style: bold;
+    color: #181818;
+    align-content: center;
+   /* margin-bottom: 30px; */
+
+}
+#skills .skills-container .skills-heading p{
+font-size: 18px;
+    font-style:400;
+    color:#757575;
+    align-content: center;
+   /* margin-bottom: 30px; */
+
+}
+
+#skills .skills-container.skill-box{
+display: flex;
+justify-content: space-between;
 }
