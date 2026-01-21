@@ -115,7 +115,7 @@ nav .menu a{
     max-width: 585px;
     vertical-align: middle;
 }
-#about{
+#about #skills #resume{
     padding-top: 130px;
 
 }
@@ -189,7 +189,7 @@ line-height: 30px;
     color: #757575;
     text-align: left;
 }
-#resume.resume-container{
+#resume .resume-container{
     width: 71%;
     max-width: 1140px;
     margin: 113px auto 0;
